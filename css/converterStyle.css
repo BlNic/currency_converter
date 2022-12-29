@@ -18,25 +18,37 @@ html {
     padding: 2% 5%;
 }
 
-.converterForm__fieldset {
-    max-width: 350px;
+.converterForm {
+    max-width: 450px;
     color: white;
-    background-image: linear-gradient(to bottom, rgb(248, 217, 91), rgb(146, 102, 6));
+    background-image: linear-gradient(to bottom,
+            rgb(248, 217, 91),
+            rgb(146, 102, 6));
     padding: 30px;
     margin: 8% auto;
     border-radius: 20px;
     text-shadow: 1px 1px rgb(156, 124, 8);
     box-shadow: 1px 1px 10px 1px rgb(157, 157, 155);
-    ;
 }
 
 .converterForm__legend {
     color: white;
-    background-image: linear-gradient(to bottom, rgb(248, 217, 91), rgb(197, 145, 34), rgb(197, 145, 34), rgb(197, 145, 34), rgb(197, 145, 34), rgb(146, 102, 6));
+    background-image: linear-gradient(to bottom,
+            rgb(248, 217, 91),
+            rgb(197, 145, 34),
+            rgb(197, 145, 34),
+            rgb(197, 145, 34),
+            rgb(197, 145, 34),
+            rgb(146, 102, 6));
     padding: 10px;
     border-radius: 20px;
     text-shadow: 1px 1px rgb(156, 124, 8);
     margin: auto;
+}
+
+.jsQuantity {
+    max-width: 80px;
+    text-align: center;
 }
 
 .jsResult {
@@ -45,7 +57,7 @@ html {
 }
 
 .clearButton {
-    padding: 5px 15px;
+    padding: 5px;
     border-radius: 20px;
     color: #eee;
     background-color: #8d8c87;
@@ -60,7 +72,9 @@ html {
     border-radius: 50px;
     color: #eee;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(141, 113, 3), rgb(86, 60, 10));
+    background-image: linear-gradient(to bottom,
+            rgb(141, 113, 3),
+            rgb(86, 60, 10));
 }
 
 .footer {
@@ -69,5 +83,7 @@ html {
     border-radius: 20px;
     color: #eee;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(141, 113, 3), rgb(86, 60, 10));
+    background-image: linear-gradient(to bottom,
+            rgb(141, 113, 3),
+            rgb(86, 60, 10));
 }

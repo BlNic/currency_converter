@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-
 <html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesja noworodkowa</title>
+    <title>Kantor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -24,26 +22,19 @@
     <main>
         <form class="converterForm">
             <fieldset class="converterForm__fieldset">
-                <legend class="converterForm__legend">Przelicz dolary</legend>
+                <legend class="converterForm__legend">Przelicznik</legend>
                 <p>
-                    <label>
-                        Ilość <input class="jsQuantity" type="number" min="1" required>
-                    </label>
+                    <label>Wybierz walutę </label>
+                    <select class="jsRate">
+                        <option class="jsRate__usd" value="3">USD</option>
+                        <option class="jsRate__eur" value="4">EUR</option>
+                        <option class="jsRate__gbp" value="5">GBP</option>
+                    </select>
                 </p>
-                <div>
-                    <form class="currency">
-                        <label>
-                            Waluta:
-                            <select name="currencyChooser">
-                                <option class="currency__usd" value="4">USD</option>
-                                <option class="currency__eur" value="5">EUR</option>
-                                <option class="currency__gbp" value="6">GBP</option>
-                            </select>
-                        </label>
-                </div>
                 <p>
                     <label>
-                        Kurs <input class="jsRate" type="number" min="1" placeholder="4,39" readonly>
+                        Ilość <input class="jsQuantity" type="number" min="1" required> <span
+                            class="currencyField"></span>
                     </label>
                 </p>
                 <p>
@@ -58,10 +49,6 @@
     <footer class="footer">
         Copyright by BlankaNicman©2022
     </footer>
-
-
-    letx eur = document.querySelector(".currency__eur");
-    letx gbp = document.querySelector(".currency__gbp");
 </body>
 
 </html>

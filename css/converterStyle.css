@@ -8,6 +8,16 @@ html {
     box-sizing: inherit;
 }
 
+.element {
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/marble-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
 .body {
     display: block;
     margin: 0 auto;

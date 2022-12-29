@@ -30,7 +30,7 @@ form.addEventListener("input", (event) => {
 form.addEventListener("reset", () => {
     jsResult.innerText = "0.00";
 });
-/*
+
 form.addEventListener("reset", () => {
-  currencyField.innerText = " ";
-}); */
+    currencyField.innerText = " ";
+}); 

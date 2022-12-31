@@ -5,7 +5,7 @@
 
 https://blnic.github.io/currency_converter/
 
-!(https://blnic.github.io/currency_converter/images/CC-gif.gif)
+!(https://github.com/BlNic/currency_converter/blob/main/images/CC-gif.gif)
 ### I made my project using:
 - HTML
 - CSS
